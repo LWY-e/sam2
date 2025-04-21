@@ -25,8 +25,12 @@
 - 기존 데이터에 기준을 여러 가지로 학습시킬 시 문제점이 있는지에 대한 자료 탐색
   
 1. 파국적 망각 및 연속 학습
+   - "Overcoming catastrophic forgetting in neural networks"
+   - 신경망이 새로운 작업을 학습할 때 이전 작업을 잊어버리는 파국적 망각 현상을 다룸
    
 2. 데이터 품질 및 어노테이션 일관성 영향 관련
+   - TorchVision Object Detection Finetuning Tutorial
+   - 모델이 데이터를 올바르게 학습하기 위해서는 데이터셋 전체에 걸쳐 어노테이션 형식이 통일되고 정확해야한다는 전제가 깔림
      
 ## 2. 기본 모델에 새로운 데이터셋 학습
 
